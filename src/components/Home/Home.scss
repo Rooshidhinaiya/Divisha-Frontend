@@ -1,0 +1,43 @@
+.search-container{
+
+  background: url('https://images.pexels.com/photos/2085363/pexels-photo-2085363.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-repeat: no-repeat;
+  background-size: 100% 1000px;
+  padding: 100px 0 70px 80px;
+
+  .heading-content{
+      > p{
+          margin: 10px 30px;
+      }
+      .font-medium{
+          margin:20px 10px
+      }
+  }
+  
+  .search-bar {
+      .search-input {
+          background-color: white;
+         > p{ 
+            margin-left: 6px;
+           font-size: 18px;
+           font-weight: 500;
+         }
+          
+         input {
+          outline: none;
+          
+          width: 27rem;
+          padding: 5px;
+          font-size: 18px;
+          color: blue;
+  
+         }
+  
+         ::placeholder{
+          font-size: 18px;
+          
+         }
+         
+      }
+  }
+}
